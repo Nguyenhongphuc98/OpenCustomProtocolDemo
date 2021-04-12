@@ -235,6 +235,7 @@ function launchInPhucnhAlgorithm(uri, onResult, browserType, timeout) {
 
     function onFocus() {
         setTimeout(() => {
+            console.log(mouses);
             if (document.hasFocus()) {
                 //cancel or back from app
                 onResult(inDangerArea(mouses) ? openUriRsult.cancel : openUriRsult.success);
