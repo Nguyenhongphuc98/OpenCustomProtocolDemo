@@ -7,8 +7,8 @@ const browser = {
     },
     'firefox': {
         'name': 'firefox',
-        'alertW': 453,
-        'alertH': 279
+        'alertW': 358,
+        'alertH': 100
     },
     'safari': {
         'name': 'safari',
